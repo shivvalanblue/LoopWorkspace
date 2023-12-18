@@ -34,11 +34,11 @@ jobs:
 
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
           # Module: File: code customization description
-            curl https://github.com/shivvalanblue/Module/commit/99d0decacb57c37d65d7992bd070afc48d1695fa.patch | git apply -v --directory=Module
+            curl https://github.com/shivvalanblue/Module/commit/SHA-1.patch | git apply -v --directory=Module
 
           # Submodule Loop patches:
           # Loop: Filename: customization details
-          #curl https://github.com/username/Loop/commit/SHA-1.patch | git apply -v --directory=Loop
+          curl https://github.com/username/Loop/commit/99d0decacb57c37d65d7992bd070afc48d1695fa.patch | git apply -v --directory=Loop
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: customization details
