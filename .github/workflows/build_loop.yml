@@ -34,7 +34,7 @@ jobs:
 
           # For each patch, edit comment line (keep the #) then update curl (and remove the #)
           # Module: File: Update the standard absorption times
-          curl https://github.com/shivvalanblue/Module/commit/d8a3563ae87dd13dc3dd105ed8e5014fbb9eb848.patch | git apply -v --directory=Loop
+          curl https://github.com/shivvalanblue/Loop/commit/d8a3563ae87dd13dc3dd105ed8e5014fbb9eb848.patch | git apply -v --directory=Loop
 
           # Submodule Loop patches:
           # Loop: Filename: customization details
